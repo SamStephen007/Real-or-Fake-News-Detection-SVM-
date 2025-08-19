@@ -1,10 +1,10 @@
-# 📰 Fake News Detector using SVM
+# Fake News Detector using SVM
 
 This project is a machine learning web application that classifies news content as **Real** or **Fake** using a Support Vector Machine (SVM) classifier. It uses text data from news articles and leverages TF-IDF for feature extraction.
 
 ---
 
-## 🚀 Features
+## Features
 
 - Classifies text-based news as Real or Fake
 - SVM model trained using TF-IDF features
@@ -13,7 +13,7 @@ This project is a machine learning web application that classifies news content 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 fake_news_app/
@@ -31,7 +31,7 @@ fake_news_app/
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 - Python 3.7+
 - Flask
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🧪 How to Run
+## How to Run
 
 1. Clone or download this project.
 2. Ensure you have the following files:
@@ -60,7 +60,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📊 Model Training
+## Model Training
 
 The SVM model was trained on a balanced dataset of real and fake news articles using TF-IDF for feature extraction:
 
@@ -71,7 +71,7 @@ from sklearn.svm import LinearSVC
 
 ---
 
-## ✨ Example Inputs
+## Example Inputs
 
 **Real:**
 > The Senate passed a $1.2 trillion infrastructure bill on Tuesday.
@@ -82,10 +82,10 @@ from sklearn.svm import LinearSVC
 ---
 ## Images
 
-![Fake News Prediction](Images/(image.png))
-![Fake News Prediction](Images/(image-1.png))
+![Fake News Prediction](Images/image.png)
+![Fake News Prediction](Images/image-1.png)
 
-## 🧠 Future Improvements
+## Future Improvements
 
 - Use more advanced models like BERT or LSTM
 - Add headline + text combination as input
@@ -94,7 +94,7 @@ from sklearn.svm import LinearSVC
 
 ---
 
-## 📬 Author
+## Author
 
 **Sam Stephen**  
 GitHub: [@SamStephen007](https://github.com/SamStephen007)
